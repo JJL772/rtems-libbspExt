@@ -71,7 +71,6 @@
  */ 
 #include <rtems.h>
 #include <bsp.h>
-#include <rtems/system.h>
 #include <bsp/irq.h>
 
 #include "bspExt.h"

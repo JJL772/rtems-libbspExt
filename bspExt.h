@@ -55,7 +55,7 @@
 #include <bsp.h>
 
 /* Macro to detect RTEMS version */
-#include <rtems/system.h>
+#include <rtems/score/copyrt.h>
 
 #define RTEMS_ISMINVERSION(ma,mi,re) \
 	(    __RTEMS_MAJOR__  > (ma)	\
